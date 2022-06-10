@@ -8,6 +8,47 @@
 :root{
     --colar: #F1F0C0;
     --bac: #2F8F9D;
+    --boc:#8E3200;
+    --cal:#FFEBC1;
+}
+.dark header{
+    background-color: var(--boc);
+    color: var(--cal);
+}
+.dark h1{
+    background-color: var(--boc);
+    color: var(--cal);
+
+}
+.dark section article{
+    background-color: #A64B2A;
+    color: var(--cal);
+
+}
+.dark section{
+    background-color: var(--boc);
+    color: var(--cal);
+    background-image: linear-gradient(#8E3200 , #A64B2A ,#D7A86E , #FFEBC1 );
+}
+.dark .card{
+    background-color:#A64B2A;
+    color: var(--cal);
+}
+.dark .card .but{
+    background-color: var(--boc);
+    color: var(--cal);
+}
+.dark footer{
+    background-color: var(--boc);
+    color: var(--cal);
+}
+.dark .fol{
+    background-color: var(--boc);
+    color: var(--cal);
+}
+.dark .diz{
+    background-color: var(--boc);
+    color: var(--cal);
 }
 header {
 margin-bottom: 100px;
@@ -33,10 +74,11 @@ display: inline-block;
 margin-top: 6px;
 }
 .mon li a:hover{
-    background-color: #16003B;
+    background-color: rgb(15, 18, 15);
     padding: 10px;
+    border-radius: 12px;
 }
-.mood{
+#mood{
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 10px;
@@ -63,6 +105,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 25px #16003B ;  
+    border-radius: 30px;
 }
 
 
@@ -206,4 +249,56 @@ footer{
     margin: 0 auto 10px;
     border-top: 6px solid var(--bac);
     width: 99%;
+}
+.card{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: var(--bac);
+    border-radius: 30px;
+}
+.card-img-top{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+.contenar{
+    border: 2px solid red;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 200px;
+}
+.contenar p{
+    font-size: 20px;
+}
+.big-contenar{
+    background-color: #2F8F9D;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    
+}
+.mb-3{
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 12px;
+}
+.ammn{
+    display: block;
 }
